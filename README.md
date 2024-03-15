@@ -19,3 +19,14 @@ This application was created to help users create notes and organize their daily
 6. You will be able to edit your notes by clicking on the note from the recorded list.
 7. You are able to delete a note/task by clicking on the trashcan icon.
 
+## Mock Up
+![Alt Text](/Assets/11-express-homework-demo.gif)
+
+## Link to Application 
+
+
+## Link to Github Repository
+https://github.com/Agrig33/note-taker
+
+## References
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
