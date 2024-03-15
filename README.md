@@ -3,13 +3,6 @@
 ## Description
 This application was created to help users create notes and organize their daily tasks. It is a simple web application that acts as a notepad on the go.
 
-## Table of Contents
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-
 ## How to Use
 1. Open page 
 2. Click on "Get Started".
