@@ -12,5 +12,27 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req,res) => {
-    const {}
+    const { title, text } = req.body;
+    if(req.body) {
+        const newNote = {
+            title, 
+            text,
+            id: uuidv4(),
+        };
+    fs.readFile("./Develop/db/db.json", "utf8", (err, data) => {
+        if(err) {
+            console.error(err);
+            res.status(500).json("Error, note not added");
+            return;
+        }
+    const notes = JSON.parse(data);
+    notes.push(newNote);
+    });
+
+    router.delete("/noteID", (req, res) => {
+        const noteID = req.params.noteID;
+        console.log(noteID)
+
+    })
+    }
 })
